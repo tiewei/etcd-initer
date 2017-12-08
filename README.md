@@ -33,7 +33,7 @@ initContainers:
       value: 2379
     - name: ETCD_INIT_PEER_PORT
       value: 2380
-    - name: ETCD_INITIAL_CLUSTER
+    - name: ETCD_INIT_CLUSTER
       value: etcd0=http://192.168.1.3:2380,etcd1=http://192.168.1.4:2380,etcd2=http://192.168.1.5:2380
     - name: ETCD_INIT_DATA_DIR
       value: /var/lib/etcd/
