@@ -1,6 +1,6 @@
 FROM busybox:1.27
 
-LABEL maintainer "Cisco Contiv (https://contiv.github.io)"
+LABEL maintainer "WEI TIE (https://github.com/tiewei)"
 
 COPY etcd-init.sh /
 
