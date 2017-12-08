@@ -25,7 +25,7 @@ of `etcd-initer` container as part of `daemonset` and using host network:
 ```
 initContainers:
 - name: etcd-init
-  image: ferest/etcd-init:latest
+  image: ferest/etcd-initer:latest
   env:
     - name: ETCD_INIT_ARGSFILE
       value: /etc/etcd/etcd-args
